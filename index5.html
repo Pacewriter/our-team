@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang= "en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Our Team</title>
+    </head>
+    <style>
+        body{
+            font-family: sans-serif;
+            background-color:moccasin;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            height: 10vh;
+            margin-top: 20px;
+        }
+
+        .team-member img{
+            width: 200px;
+            height: 300px;
+            border: 5px solid black;
+            margin: 20px;
+        
+        }
+
+        .team-member:hover{
+            background-color: aqua;
+
+        }
+
+        p{
+            color: brown;
+            font-size: 20px;
+        }
+
+        h1, h2{
+            color:teal;
+            text-align: center;
+        }
+
+        h3{
+            color: teal;
+        }
+
+        @media(min-width: 600px) {
+            .container{
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+
+       
+        
+    </style>
+
+    <body>
+        
+            <h1>Our Team</h1>
+            <p>We are working so hard so that the women in our lives get to enjoy. They are our priority.</p>
+            
+        
+            <h2>Here are our team members</h2>
+        <div class="container">
+            <div class="team-member">
+            
+                    <h3>Egbuchua Patrick</h3>
+                    <img src="./WhatsApp Image 2025-10-01 at 03.09.43_316288bd.jpg"/>
+                    <p>This is the eldest brother in the group. His role is cordination. He is a leader and he has to make sure everyone is doing okay physicall, mentally, and spiritually.</p>
+            </div>
+            <div class="team-member">
+                    <h3>Egbuchua Dvyne</h3>
+                    <img src="./WhatsApp Image 2025-10-01 at 03.09.43_d96d3825.jpg"/>
+                    <p>This guy is tasked with making decisions that he deems okay for himself and everyone. He is the 2IC</p>
+            </div>
+            <div class="team-member">
+                <h3>Egbuchua Chibuikem</h3>
+                <img src="./WhatsApp Image 2025-10-01 at 03.09.44_3845319f.jpg"/>
+                <p>This guy makes sure these women do not need to do any difficult job right now. he puts everything in place for them now.</p>
+            </div>  
+       </div> 
+    </body>
+</html>    
